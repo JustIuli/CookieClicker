@@ -1,0 +1,11 @@
+#clickerUpgrades{
+    background: url("https://cdn.dashnet.org/cookieclicker/img/bgBlue.jpg") no-repeat;
+}
+img {
+    width: 200px;
+    transform: scale(1); /* Initial scale */
+    transition: transform 0.5s; /* Add a transition for smooth scaling */
+}
+.scale{
+    transform: scale(1.125); /* Scale to 1.125 (225px/200px) for the animation */
+}
